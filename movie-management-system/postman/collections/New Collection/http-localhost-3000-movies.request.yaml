@@ -1,0 +1,21 @@
+$kind: http-request
+name: http://localhost:3000/movies
+description: ""
+url: http://localhost:3000/movies
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Inception\",\r
+
+    \  \"director\": \"Christopher Nolan\",\r
+
+    \  \"genre\": \"Sci-Fi\",\r
+
+    \  \"releaseYear\": 2010,\r
+
+    \  \"rating\": 8.8\r
+
+    }"
+order: 1000
